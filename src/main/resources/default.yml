@@ -1,0 +1,11 @@
+# This is the default config to show you how to use this expansion.
+# Just create a new file and use the placeholder like : %mli_{file_name_without_.yml}_{custom_placeholder}%
+# If you want to delete this file, free to you but make sure another one is present so it doesn't get back.
+simpleTest:
+  en_us: "This is a simple test!"
+  fr_fr: "C'est un texte simple!"
+# You can also use existing placeholders, just be sure they are installed on PAPI.
+# For this test you will have to add "Player" placeholders : /papi ecloud download Player
+advancedTest:
+  en_us: "Hey %player_name%, this test was made for you!"
+  fr_fr: "Hey %player_name%, ce test a été fait pour toi!"
